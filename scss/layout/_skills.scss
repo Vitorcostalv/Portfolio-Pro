@@ -1,0 +1,17 @@
+.skills {
+    background-color: $background-color;
+    padding: 2rem;
+    text-align: center;
+    
+    .skill-item {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      
+      .progress-bar {
+        background-color: $secondary-color;
+        height: 1rem;
+        width: 80%; /* exemplo de valor */
+      }
+    }
+  }
+  

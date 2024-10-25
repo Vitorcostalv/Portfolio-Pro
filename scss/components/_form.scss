@@ -1,0 +1,33 @@
+.form {
+    background-color: $background-color;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  
+    label {
+      font-size: 1rem;
+      color: $text-color;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+  
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid $text-color;
+      border-radius: 5px;
+      font-size: 1rem;
+      background-color: white;
+    }
+  
+    .form__button {
+      @extend .button;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
